@@ -1,0 +1,229 @@
+[
+  {
+    "type": "get",
+    "url": "/addId/:name",
+    "title": "create a new user and set as owner",
+    "name": "addAttribute",
+    "group": "Attributes",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "name",
+            "optional": false,
+            "field": "add",
+            "description": "<p>attributes with attributeHash</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "Attributes"
+  },
+  {
+    "type": "get",
+    "url": "/updateattribute/:name",
+    "title": "updates user Attribute",
+    "name": "updateAttribute",
+    "group": "Attributes",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "name",
+            "optional": false,
+            "field": "attribute",
+            "description": "<p>hash from IPFS system</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "Attributes"
+  },
+  {
+    "type": "get",
+    "url": "/killContract/:name",
+    "title": "killContract given to a third party",
+    "name": "killcontract",
+    "group": "Contract",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "name",
+            "optional": false,
+            "field": "yolo",
+            "description": "<p>id of address of thirdparty</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "Contract"
+  },
+  {
+    "type": "get",
+    "url": "/newContract/:name",
+    "title": "newContract given to a third party",
+    "name": "newcontract",
+    "group": "Contract",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "name",
+            "optional": false,
+            "field": "yolo",
+            "description": "<p>id of address of thirdparty</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "Contract"
+  },
+  {
+    "type": "get",
+    "url": "/encryptionkey/:name",
+    "title": "checkencryptionkey",
+    "name": "checkencryptionkey",
+    "group": "Keys",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "name",
+            "optional": false,
+            "field": "publicEncryptionKey",
+            "description": "<p>public Encryption Key</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "Keys"
+  },
+  {
+    "type": "get",
+    "url": "/setpublickey/:name",
+    "title": "setEncryptionPublicKey",
+    "name": "setEncryptionPublicKey",
+    "group": "Keys",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "name",
+            "optional": false,
+            "field": "publicEncryptionKey",
+            "description": "<p>public Encryption Key</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "Keys"
+  },
+  {
+    "type": "get",
+    "url": "/setpublickey/:name",
+    "title": "setSigningPublicKey",
+    "name": "setSigningPublicKey",
+    "group": "Keys",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "name",
+            "optional": false,
+            "field": "publicSigningKey",
+            "description": "<p>public Signing Key</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "Keys"
+  },
+  {
+    "type": "get",
+    "url": "/setpublickey/:name",
+    "title": "signingPublicKey",
+    "name": "signingPublicKey",
+    "group": "Keys",
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "Keys"
+  },
+  {
+    "type": "get",
+    "url": "/lock/:name",
+    "title": "newContract given to a third party",
+    "name": "lock",
+    "group": "Locks",
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "Locks"
+  },
+  {
+    "type": "get",
+    "url": "/addId/:name",
+    "title": "create a new user and set as owner",
+    "name": "addid",
+    "group": "identity",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "name",
+            "optional": false,
+            "field": "address",
+            "description": "<p>account address of user</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "identity"
+  },
+  {
+    "type": "get",
+    "url": "/addId/:name",
+    "title": "create a new user and set as owner",
+    "name": "addid",
+    "group": "identity",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "name",
+            "optional": false,
+            "field": "address",
+            "description": "<p>account address of user</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "test/restinterface.js",
+    "groupTitle": "identity"
+  }
+]

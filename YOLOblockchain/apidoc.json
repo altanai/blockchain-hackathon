@@ -1,0 +1,23 @@
+{
+"name": "apidoc-yolo",
+"version": "0.3.0",
+"description": "apiDoc YOLO Id card",
+"title": "YOLO Id Card",
+"url": "https://api.github.com/v1",
+"header": {
+"title": "YOLO Id Card",
+"filename": "header.md"
+},
+"footer": {
+"title": "Identity Ownership management",
+"filename": "footer.md"
+},
+"order": [
+"GetUser",
+"PostUser"
+],
+"template": {
+"withCompare": true,
+"withGenerator": true
+}
+}
